@@ -1,0 +1,15 @@
+# one person gets input that shows all current avaliable classes
+# one person makes the details for the classes available
+# one person makes the schedualing for classes selected making sure they don't overlap with each other
+
+
+# get list of times of classes
+# make sure they don't overlap with each other
+# if they do make they replace a class
+def schedule(classes):
+    for row in classes:
+        for item in row:
+            print(item, end=' ')
+        print()
+# gets class, starting time, ending time
+schedule [[1, 900, 1150][2, 1000, 1300]]
