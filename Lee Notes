@@ -1,0 +1,33 @@
+# Class_activity01
+# Classes for GenEd and specific major
+
+# same class can occur on different days and time
+# validation to make sure overlapping classes cannot be taken at the same time
+  # print statement that shows which classes are intersecting
+
+# Lee task: create functions that show available classes for each major if input = major
+# ex: if input == specific_major:
+  # specific_major_classes()
+  # majors: computer science, engineering, astronomy
+    # four classes per major (to start out)
+# create lists of each class, list for student schedule (ability to append classes into list, error for adding class not in major)
+
+  # print formatted list with name of classes and time
+# all majors will have gen ed classes, include gen_ed list as part of each specified major list
+gen_ed_classes = ['Sample Gen Ed Class 1', 'Sample Gen Ed Class 2']
+engineering_major_classes = ['Sample Engineering Class 1', 'Sample Engineering Class 2'] 
+compsci_major_classes = ['Sample Computer Science Class 1', 'Sample Computer Science Class 2']
+astronomy_major_classes = ['Sample Astronomy Class 1', 'Sample Astronomy Class 2']
+
+def astronomy_major():
+  print(astronomy_major_classes)
+def engineering_major():
+  print(engineering_major_classes)
+def comp_sci_major():
+  print(compsci_major_classes)
+def gen_ed():
+  print(gen_ed_classes)
+
+student_classes = []
+user_input = input('Select a class to take: )
+# append chosen class to list student_classes
